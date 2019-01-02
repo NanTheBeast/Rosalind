@@ -1,2 +1,2 @@
-# Targeted_seq_template
+# Targeted_seq
 This is a template for targeted sequencing analysis
