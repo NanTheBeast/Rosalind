@@ -1,2 +1,2 @@
-# Targeted_seq
-This is a template for targeted sequencing analysis.
+# Targeted_DNA_seq
+This is a template for targeted DNA sequencing analysis.
