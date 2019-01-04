@@ -1,10 +1,10 @@
 This is a record of Nan`s Rosalind practice.
 
 # Script description
-1. CountingDNA.py - Counting DNA nucleotides
-2. TranscribingDNAtoRNA.py - Transcribing DNA to RNA
-3. ComplementingDNA.py - Complementing a Strand of DNA
-4. RecurrenceRelations.py - Rabbits and Recurrence Relations
+1. ctdna.py - Counting DNA nucleotides
+2. transdna2rna.py - Transcribing DNA to RNA
+3. cpldna.py - Complementing a Strand of DNA
+4. rcrr.py - Rabbits and Recurrence Relations
 
 
 # Credit
