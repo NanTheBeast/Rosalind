@@ -1,4 +1,4 @@
-This is a record of Nan`s Rosalind practice.
+This repo is a record of Nan`s Rosalind practice.
 
 # Script description
 1. ctdna.py - Counting DNA nucleotides
