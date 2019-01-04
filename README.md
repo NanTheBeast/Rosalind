@@ -1,5 +1,7 @@
 This is a record of Nan`s Rosalind practice.
 
+# Script description
+1. 
 
 
 
