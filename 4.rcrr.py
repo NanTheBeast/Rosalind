@@ -1,20 +1,24 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @IDE: PyCharm
-# @date: Sep-18-2018 11:19 AM
+# @date: Jan-15-2019 11:19 AM
 # @author: nhu
 
 
 """
-Usage   Python3 CompeletingDNA.py -h for help.
-        Python3 CompeletingDNA.py -f for filename.
-        The result is 
+Usage   Python3 wabbits.py -h for help.
+        Python3 wabbits.py -f for filename.
+        The result is the number of rabbits at n_th generation.
 """
 
 
 import argparse
 
-def 
+def fib(n, k):
+    a, b = 1, 1
+    for i in range(2, n):
+        a, b = b, k*a + b
+    return b
 
 
 if __name__ == '__main__':
@@ -26,10 +30,16 @@ if __name__ == '__main__':
 
     f = open(file,"r")
     nt = f.read().strip('\n')
+    a = nt.split(" ")[0]
+    b = nt.split(" ")[1]
     f.close()
 
-    tmp = CompleteDNA(nt)
-    # print(tmp)
-    ff = open("3.revc_results.txt","w")
+    tmp = fib(int(a),int(b))
+    tmp = str(tmp)
+    print(tmp)
+    
+    ff = open("out.txt","w")
     ff.write(tmp)
     ff.close()
+
+#print(fib(33, 5))
