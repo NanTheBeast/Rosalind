@@ -14,7 +14,7 @@ Usage   Python3 CompeletingDNA.py -h for help.
 
 import argparse
 
-def CompleteDNA(s):
+def ComplementDNA(s):
     cs = s.replace('A', 't').replace('T', 'a').replace('C', 'g').replace('G', 'c').upper()
     return cs[::-1]
 
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     nt = f.read().strip('\n')
     f.close()
 
-    tmp = CompleteDNA(nt)
+    tmp = ComplementDNA(nt)
     # print(tmp)
     ff = open("3.revc_results.txt","w")
     ff.write(tmp)
